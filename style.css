@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #333;
+    line-height: 1.5;
+}
+p{
+    font-size: x-large;
+    font-weight: 800;
+    fo
+}
+toggleDL{
+    {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+}
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.navbar{
+    background-color: #000;
+    color: #fff;
+    height:70px;
+}
+
+.navbar ul{
+    display: flex;
+ 
+}
+.navbar a{
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+.navbar a:hover{
+    border-bottom: 0.5px #fff solid; 
+}
+.navbar .flex{
+    justify-content: space-between;
+}
+/* Style all font awesome icons 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want 
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook 
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+   Twitter
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+ */
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+button{
+    color: grey;
+}
+
+/*
+header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+img{
+    margin: 20px;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation li{
+    list-style: none;
+    margin: 0 20px;
+}
+.navigation li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+}
+.navigation li:hover a{
+    color: #de0611;
+}
+.video-content{
+
+} */

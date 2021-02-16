@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buy_style.css">
+    <title>Buy the latest Concept Car</title>
+</head>
+<script>  
+         function myFunction() {
+            alert("Thank You! Your order has been placed successfully!")
+}
+
+</script>
+<body>
+    <a href="#" class="logo"> <img src="./images/logo.png" alt=""> </a>
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="model color">Model Color</label>
+          <select id="color" name="color">
+            <option value="Black">Black</option>
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+          </select>
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="US">US</option>
+            <option value="Australia">Australia</option>
+            <option value="Singapore">Singapore</option>
+           <option value="Malaysia">Malaysia</option>
+          </select>
+
+        
+      
+          <label for="address">Address</label>
+          <textarea id="address" name="address" placeholder="Your address please.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit" onclick="myFunction()">
+          
+          
+
+         
+      
+        </form>
+      </div>
+</body>
+</html>
